@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>work3</OriginalElement>
+  <nodes>
+    <node x="-387.5" y="634.0">work3.SizeManipulator</node>
+    <node x="-141.0" y="149.0">work3.Rectangle</node>
+    <node x="-239.5" y="454.0">work3.PositionManipulator</node>
+    <node x="-56.5" y="269.0">work3.Circle</node>
+    <node x="-204.0" y="1.0">work3.GraphicElement</node>
+    <node x="-418.0" y="257.0">work3.GraphicElementDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work3.GraphicElementDecorator" target="work3.GraphicElement" relationship="REALIZATION">
+      <point x="80.5" y="-51.0" />
+      <point x="-176.5" y="128.0" />
+      <point x="-77.0" y="128.0" />
+      <point x="-77.0" y="88.0" />
+      <point x="-73.5" y="88.0" />
+      <point x="43.5" y="27.0" />
+    </edge>
+    <edge source="work3.Circle" target="work3.GraphicElement" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="3.0" y="128.0" />
+      <point x="-77.0" y="128.0" />
+      <point x="-77.0" y="88.0" />
+      <point x="-73.5" y="88.0" />
+      <point x="43.5" y="27.0" />
+    </edge>
+    <edge source="work3.PositionManipulator" target="work3.GraphicElementDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="-97.0" y="428.0" />
+      <point x="-257.0" y="428.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="work3.SizeManipulator" target="work3.GraphicElementDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="work3.GraphicElementDecorator" target="work3.GraphicElement" relationship="TO_ONE">
+      <point x="-80.5" y="-51.0" />
+      <point x="-337.5" y="108.0" />
+      <point x="-160.5" y="108.0" />
+      <point x="-43.5" y="27.0" />
+    </edge>
+    <edge source="work3.Rectangle" target="work3.GraphicElement" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="-77.0" y="88.0" />
+      <point x="-73.5" y="88.0" />
+      <point x="43.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0000000000000002" showDependencies="true" x="40.8125" y="425.359375" />
+  <SelectedNodes>
+    <node>work3.Rectangle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
